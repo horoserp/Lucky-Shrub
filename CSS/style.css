@@ -1,0 +1,178 @@
+/* Universal Selector to remove default browser settings */
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    background-color: hsl(120, 25%, 80%);
+    font-family: cursive, serif;
+    margin: 3rem 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding: 1rem 0rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.5rem solid green;
+    text-shadow: 0.3rem 0.2em .5rem hsl(80, 77%, 58%);
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+header > img,  h2 + img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 15rem;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: hsl(0, 63%, 25%);
+    padding: 1rem;
+    border: 0.25rem solid green;
+    border-radius: 2rem;
+}
+
+nav li {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+}
+
+.background {
+    margin: 2rem 1rem;
+    border: 5px solid green;
+    border-radius: 10%;
+    background-color: hsl(33, 61%, 80%);
+    padding: 1rem 2rem;
+}
+
+section:first-of-type {
+    background-image: url(/Images/grass-blades.jpg);
+    min-height: 15rem;
+    border: 0.5rem solid green;
+    border-radius: 5rem;
+}
+
+h1 > div {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: hsl(80, 77%, 58%);
+    animation: myanimation 2.5s 2s 1 linear;
+}
+
+@keyframes myanimation {
+    0% {
+        rotate: 0deg;
+        scale: 1%;
+        color: white;
+    }
+    75% {
+        scale: 100%;
+        color: hsl(80, 77%, 58%);
+    }
+    80% {
+        scale: 50%;
+    }
+    90% {
+        scale: 150%;
+    }
+    100% {
+        rotate: 360deg;
+        scale: 100%;
+    }
+}
+
+h1 + p {
+    color: hsl(80, 77%, 58%);
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+p {
+    margin-bottom: 0rem;
+    color: hsl(0, 63%, 25%);
+    font-size: 1.2rem;
+}
+
+article p {
+    text-indent: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: hsl(0, 63%, 25%);
+    border: 0.25rem solid green;
+    border-radius: 2rem;
+}
+
+footer div {
+    flex:1;
+    text-align: center;
+}
+
+div > p {
+    color: whitesmoke;
+}
+
+footer img {
+    max-height: 8rem;
+    padding: 1rem;
+}
+
+a:link {
+    color: hsl(80, 77%, 58%);
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active{
+    color: green;
+}
+
+@media all and (max-width: 600px) {
+    nav li, article, footer div {
+        flex-basis: 100%;
+    }
+    div > p {
+        padding-bottom: 1rem;
+    }
+}
