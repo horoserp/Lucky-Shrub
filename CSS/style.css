@@ -78,7 +78,7 @@ article {
 }
 
 section:first-of-type {
-    background-image: url(/Images/grass-blades.jpg);
+    background-image: url("https://i.ibb.co/HHQGNVp/grass-blades.jpg");
     min-height: 15rem;
     border: 0.5rem solid green;
     border-radius: 5rem;
