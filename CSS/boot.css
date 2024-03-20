@@ -1,0 +1,54 @@
+/* Universal Selector to remove default browser settings */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive, serif;
+}
+
+.custom1 {
+    color: green;
+}
+
+.bg-custom1 {
+    background-color: hsl(120deg 25% 80%);
+}
+
+.bg-custom2 {
+    background-color: hsl(0deg 63% 25%);
+}
+
+.border {
+    border-color: green !important;
+    border-width: .35rem !important;
+    border-radius: 2rem !important;
+}
+
+.px-6 {
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 720px;
+}
+
+/* .bg-primary {
+    background-color: hsl(120deg 25% 80%) !important;
+} */
+
+a:link {
+    color: green !important;
+}
+
+a:visited {
+    color: green !important;
+    /* color: white !important; */
+}
+
+a:hover {
+    color: black !important;
+}
+
+a:active{
+    color: hsl(80deg 77% 58%) !important;
+}

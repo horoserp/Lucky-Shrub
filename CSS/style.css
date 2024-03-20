@@ -24,7 +24,7 @@ h2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 0.5rem solid green;
-    text-shadow: 0.3rem 0.2em .5rem hsl(80, 77%, 58%);
+    text-shadow: 0.3rem 0.2em .5rem hsl(80deg 77% 58%);
 }
 
 header {
@@ -43,7 +43,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    background-color: hsl(0, 63%, 25%);
+    background-color: hsl(0deg 63% 25%);
     padding: 1rem;
     border: 0.25rem solid green;
     border-radius: 2rem;
@@ -73,7 +73,7 @@ article {
     margin: 2rem 1rem;
     border: 5px solid green;
     border-radius: 10%;
-    background-color: hsl(33, 61%, 80%);
+    background-color: hsl(33deg 61% 80%);
     padding: 1rem 2rem;
 }
 
@@ -87,7 +87,7 @@ section:first-of-type {
 h1 > div {
     text-transform: uppercase;
     font-weight: bold;
-    color: hsl(80, 77%, 58%);
+    color: hsl(80deg 77% 58%);
     animation: myanimation 2.5s 2s 1 linear;
 }
 
@@ -100,7 +100,7 @@ h1 > div {
 
     75% {
         scale: 100%;
-        color: hsl(80, 77%, 58%);
+        color: hsl(80deg 77% 58%);
     }
 
     80% {
@@ -118,14 +118,14 @@ h1 > div {
 }
 
 h1 + p {
-    color: hsl(80, 77%, 58%);
+    color: hsl(80deg 77% 58%);
     font-size: 2rem;
     padding: 2rem;
 }
 
 p {
     margin-bottom: 0;
-    color: hsl(0, 63%, 25%);
+    color: hsl(0deg 63% 25%);
     font-size: 1.2rem;
 }
 
@@ -137,7 +137,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: hsl(0, 63%, 25%);
+    background-color: hsl(0deg 63% 25%);
     border: 0.25rem solid green;
     border-radius: 2rem;
 }
@@ -169,7 +169,7 @@ a:hover {
 }
 
 a:active{
-    color: hsl(80, 77%, 58%);
+    color: hsl(80deg 77% 58%);
 }
 
 @media all and (max-width: 600px) {
