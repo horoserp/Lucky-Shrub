@@ -32,13 +32,36 @@
     padding-right: 8rem !important;
 }
 
+/* .bg-primary {
+    background-color: hsl(120deg 25% 80%) !important;
+    } */
+
+footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: hsl(0deg 63% 25%);
+        border: 0.25rem solid green;
+        border-radius: 2rem;
+}
+
+footer div {
+    flex:1;
+    text-align: center;
+}
+
+div > p {
+    color: whitesmoke;
+}
+
+footer img {
+    max-height: 8rem;
+    padding: 1rem;
+}
+
 .carousel-inner > .carousel-item > img {
     height: 720px;
 }
-
-/* .bg-primary {
-    background-color: hsl(120deg 25% 80%) !important;
-} */
 
 a:link {
     color: green !important;
