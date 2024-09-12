@@ -117,16 +117,16 @@ h1 > div {
     }
 }
 
-h1 + p {
-    color: hsl(80deg 77% 58%);
-    font-size: 2rem;
-    padding: 2rem;
-}
-
 p {
     margin-bottom: 0;
     color: hsl(0deg 63% 25%);
     font-size: 1.2rem;
+}
+
+h1 + p {
+    color: hsl(80deg 77% 58%);
+    font-size: 2rem;
+    padding: 2rem;
 }
 
 article p {
@@ -172,7 +172,8 @@ a:active{
     color: hsl(80deg 77% 58%);
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) { */
+@media all and (1px <= width <= 600px) {
     nav li, article, footer div {
         flex-basis: 100%;
     }

@@ -17,6 +17,10 @@
     background-color: hsl(0deg 63% 25%);
 }
 
+.bg-custom3 {
+    background-color: hsl(33deg 61% 80%);
+}
+
 .border {
     border-color: green !important;
     border-width: .35rem !important;
@@ -42,6 +46,7 @@ a:link {
 
 a:visited {
     color: green !important;
+
     /* color: white !important; */
 }
 
