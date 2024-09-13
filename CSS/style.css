@@ -174,7 +174,13 @@ a:active{
         padding-bottom: 1rem;
     }
 
-    img:nth-of-type(1) {
-        max-width: 200px;
+    article img {
+        max-width: 175px;
     }
+
+    article.background {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
