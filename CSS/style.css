@@ -12,7 +12,6 @@
 
 body {
     background-color: hsl(120deg 25% 80%);
-    /* margin: 3rem 5%; */
 }
 
 h1 {
@@ -181,6 +180,10 @@ a:active{
     article.background {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .background {
+        border-radius: 25px;
     }
 
 }
